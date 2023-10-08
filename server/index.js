@@ -7,6 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 mongoose.connect('mongodb+srv://ap22:Ani2022@cluster0.ppsiosd.mongodb.net/todo');
 
 app.get('/', (req, res) => {
